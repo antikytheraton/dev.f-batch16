@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %} People {% endblock  %}
+
+{% block content %}
+    {% if personajes %}
+    <ul>
+        {% for personaje in personajes %}
+            <li>{{personaje.name}}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+        <h3>No hay personajes</h3>
+    {% endif %}
+{% endblock  %}
+

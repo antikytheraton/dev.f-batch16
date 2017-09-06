@@ -1,3 +1,6 @@
+# TODOs
+- Hacer una url de planetas
+
 # Getting started with django
 
 - virtualenv week2
@@ -21,3 +24,7 @@
 - swdex/urls.py
 - Characters/urls.py
 - templates/index.html
+
+## Archivos estaticos
+- Materialize
+- jQuery

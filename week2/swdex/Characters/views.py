@@ -8,4 +8,4 @@ def index(request,pagina=1):
         characters = req.json()['results']
     else:
         characters = []
-    return render(request,'index.html',{'personajes':characters})
+    return render(request,'characters/index.html',{'personajes':characters})
