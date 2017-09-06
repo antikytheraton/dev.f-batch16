@@ -2,7 +2,7 @@
 
 - virtualenv week2
 - source week2/bin/activate
-- pip install django
+- pip install requests
 - pip freeze 
 - django-admin startproject swdex
 - python manage.py startapp Characters
