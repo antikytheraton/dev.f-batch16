@@ -8,7 +8,9 @@ A	../week2/lib/python3.6/re.py	/^    A = ASCII$/;"	kind:variable	line:150
 ABC	../week2/lib/python3.6/abc.py	/^class ABC(metaclass=ABCMeta):$/;"	kind:class	line:234
 ABCMeta	../week2/lib/python3.6/_collections_abc.py	/^from abc import ABCMeta, abstractmethod$/;"	kind:namespace	line:9
 ABCMeta	../week2/lib/python3.6/abc.py	/^class ABCMeta(type):$/;"	kind:class	line:109
+ALLOWED_HOSTS	../challenge/challenge/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
 ALLOWED_HOSTS	../first_project/first_project/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+ALLOWED_HOSTS	../swdex/swdex/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
 AMPER	../week2/lib/python3.6/token.py	/^AMPER = 19$/;"	kind:variable	line:32
 AMPEREQUAL	../week2/lib/python3.6/token.py	/^AMPEREQUAL = 41$/;"	kind:variable	line:54
 AREGTYPE	../week2/lib/python3.6/tarfile.py	/^AREGTYPE = b"\\0"                # regular file$/;"	kind:variable	line:90
@@ -20,14 +22,21 @@ ATEQUAL	../week2/lib/python3.6/token.py	/^ATEQUAL = 50$/;"	kind:variable	line:63
 AT_LOCALE	../week2/lib/python3.6/sre_constants.py	/^AT_LOCALE = {$/;"	kind:variable	line:143
 AT_MULTILINE	../week2/lib/python3.6/sre_constants.py	/^AT_MULTILINE = {$/;"	kind:variable	line:138
 AT_UNICODE	../week2/lib/python3.6/sre_constants.py	/^AT_UNICODE = {$/;"	kind:variable	line:148
-AUTH_PASSWORD_VALIDATORS	../first_project/first_project/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
+AUTH_PASSWORD_VALIDATORS	../challenge/challenge/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
+AUTH_PASSWORD_VALIDATORS	../first_project/first_project/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
+AUTH_PASSWORD_VALIDATORS	../swdex/swdex/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
 AWAIT	../week2/lib/python3.6/token.py	/^AWAIT = 54$/;"	kind:variable	line:67
+Anade	../first_project/first_project/urls.py	/^from django.conf.urls import url, include # Anade el modulo include$/;"	kind:namespace	line:16
+AppConfig	../challenge/some_views/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+AppConfig	../first_project/first_app/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
 AsyncGenerator	../week2/lib/python3.6/_collections_abc.py	/^class AsyncGenerator(AsyncIterator):$/;"	kind:class	line:192
 AsyncGeneratorType	../week2/lib/python3.6/types.py	/^AsyncGeneratorType = type(_ag)$/;"	kind:variable	line:30
 AsyncIterable	../week2/lib/python3.6/_collections_abc.py	/^class AsyncIterable(metaclass=ABCMeta):$/;"	kind:class	line:158
 AsyncIterator	../week2/lib/python3.6/_collections_abc.py	/^class AsyncIterator(AsyncIterable):$/;"	kind:class	line:173
 Awaitable	../week2/lib/python3.6/_collections_abc.py	/^class Awaitable(metaclass=ABCMeta):$/;"	kind:class	line:99
+BASE_DIR	../challenge/challenge/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
 BASE_DIR	../first_project/first_project/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+BASE_DIR	../swdex/swdex/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
 BLKTYPE	../week2/lib/python3.6/tarfile.py	/^BLKTYPE = b"4"                  # block special device$/;"	kind:variable	line:94
 BLOCKSIZE	../week2/lib/python3.6/tarfile.py	/^BLOCKSIZE = 512                 # length of processing blocks$/;"	kind:variable	line:80
 BOM32_BE	../week2/lib/python3.6/codecs.py	/^BOM32_BE = BOM_UTF16_BE$/;"	kind:variable	line:75
@@ -203,8 +212,12 @@ Container	../week2/lib/python3.6/_collections_abc.py	/^class Container(metaclass
 Coroutine	../week2/lib/python3.6/_collections_abc.py	/^class Coroutine(Awaitable):$/;"	kind:class	line:114
 CoroutineType	../week2/lib/python3.6/types.py	/^CoroutineType = type(_c)$/;"	kind:variable	line:24
 Counter	../week2/lib/python3.6/collections/__init__.py	/^class Counter(dict):$/;"	kind:class	line:468
-DATABASES	../first_project/first_project/settings.py	/^DATABASES = {$/;"	kind:variable	line:76
+DATABASES	../challenge/challenge/settings.py	/^DATABASES = {$/;"	kind:variable	line:76
+DATABASES	../first_project/first_project/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DATABASES	../swdex/swdex/settings.py	/^DATABASES = {$/;"	kind:variable	line:76
+DEBUG	../challenge/challenge/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
 DEBUG	../first_project/first_project/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+DEBUG	../swdex/swdex/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
 DEBUG	../week2/lib/python3.6/re.py	/^    DEBUG = sre_compile.SRE_FLAG_DEBUG # dump pattern after compilation$/;"	kind:variable	line:160
 DEBUG_BUILD	../week2/lib/python3.6/importlib/_bootstrap_external.py	/^    DEBUG_BUILD = False  # Changed in _setup()$/;"	kind:variable	line:602
 DEBUG_BYTECODE_SUFFIXES	../week2/lib/python3.6/importlib/machinery.py	/^from ._bootstrap_external import (SOURCE_SUFFIXES, DEBUG_BYTECODE_SUFFIXES,$/;"	kind:namespace	line:8
@@ -276,6 +289,7 @@ FileFinder	../week2/lib/python3.6/importlib/machinery.py	/^from ._bootstrap_exte
 FileLoader	../week2/lib/python3.6/importlib/_bootstrap_external.py	/^class FileLoader:$/;"	kind:class	line:795
 FileLoader	../week2/lib/python3.6/importlib/abc.py	/^class FileLoader(_bootstrap_external.FileLoader, ResourceLoader, ExecutionLoader):$/;"	kind:class	line:276
 Finder	../week2/lib/python3.6/importlib/abc.py	/^class Finder(metaclass=abc.ABCMeta):$/;"	kind:class	line:29
+FirstAppConfig	../first_project/first_app/apps.py	/^class FirstAppConfig(AppConfig):$/;"	kind:class	line:4
 Flag	../week2/lib/python3.6/enum.py	/^class Flag(Enum):$/;"	kind:class	line:646
 Floatnumber	../week2/lib/python3.6/tokenize.py	/^Floatnumber = group(Pointfloat, Expfloat)$/;"	kind:variable	line:132
 FrameType	../week2/lib/python3.6/types.py	/^    FrameType = type(tb.tb_frame)$/;"	kind:variable	line:46
@@ -300,11 +314,15 @@ HMAC	../week2/lib/python3.6/hmac.py	/^class HMAC:$/;"	kind:class	line:19
 Hashable	../week2/lib/python3.6/_collections_abc.py	/^class Hashable(metaclass=ABCMeta):$/;"	kind:class	line:84
 HeaderError	../week2/lib/python3.6/tarfile.py	/^class HeaderError(TarError):$/;"	kind:class	line:289
 Hexnumber	../week2/lib/python3.6/tokenize.py	/^Hexnumber = r'0[xX](?:_?[0-9a-fA-F])+'$/;"	kind:variable	line:123
+HttpResponse	../challenge/some_views/views.py	/^from django.http import HttpResponse$/;"	kind:namespace	line:2
+HttpResponse	../first_project/first_app/views.py	/^from django.http import HttpResponse$/;"	kind:namespace	line:2
 I	../week2/lib/python3.6/re.py	/^    I = IGNORECASE$/;"	kind:variable	line:151
 IGNORECASE	../week2/lib/python3.6/re.py	/^    IGNORECASE = sre_compile.SRE_FLAG_IGNORECASE # ignore case$/;"	kind:variable	line:144
 IMP_HOOK	../week2/lib/python3.6/imp.py	/^IMP_HOOK = 9$/;"	kind:variable	line:45
 INDENT	../week2/lib/python3.6/token.py	/^INDENT = 5$/;"	kind:variable	line:18
+INSTALLED_APPS	../challenge/challenge/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
 INSTALLED_APPS	../first_project/first_project/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+INSTALLED_APPS	../swdex/swdex/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
 IOBase	../week2/lib/python3.6/io.py	/^class IOBase(_io._IOBase, metaclass=abc.ABCMeta):$/;"	kind:class	line:72
 ISEOF	../week2/lib/python3.6/token.py	/^def ISEOF(x):$/;"	kind:function	line:85
 ISNONTERMINAL	../week2/lib/python3.6/token.py	/^def ISNONTERMINAL(x):$/;"	kind:function	line:82
@@ -573,7 +591,9 @@ K	../week2/lib/python3.6/functools.py	/^    class K(object):$/;"	kind:class	line
 KeyedRef	../week2/lib/python3.6/weakref.py	/^class KeyedRef(ref):$/;"	kind:class	line:322
 KeysView	../week2/lib/python3.6/_collections_abc.py	/^class KeysView(MappingView, Set):$/;"	kind:class	line:708
 L	../week2/lib/python3.6/re.py	/^    L = LOCALE$/;"	kind:variable	line:152
-LANGUAGE_CODE	../first_project/first_project/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:106
+LANGUAGE_CODE	../challenge/challenge/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:106
+LANGUAGE_CODE	../first_project/first_project/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
+LANGUAGE_CODE	../swdex/swdex/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:106
 LBRACE	../week2/lib/python3.6/token.py	/^LBRACE = 25$/;"	kind:variable	line:38
 LEFTSHIFT	../week2/lib/python3.6/token.py	/^LEFTSHIFT = 33$/;"	kind:variable	line:46
 LEFTSHIFTEQUAL	../week2/lib/python3.6/token.py	/^LEFTSHIFTEQUAL = 44$/;"	kind:variable	line:57
@@ -602,7 +622,9 @@ MAXLINES	../week2/lib/python3.6/site.py	/^    MAXLINES = 23$/;"	kind:variable	li
 MAXLINESIZE	../week2/lib/python3.6/base64.py	/^MAXLINESIZE = 76 # Excluding the CRLF$/;"	kind:variable	line:488
 MAXREPEAT	../week2/lib/python3.6/sre_constants.py	/^MAXREPEAT = _NamedIntConstant(MAXREPEAT, 'MAXREPEAT')$/;"	kind:variable	line:65
 MAXREPEAT	../week2/lib/python3.6/sre_constants.py	/^from _sre import MAXREPEAT, MAXGROUPS$/;"	kind:namespace	line:18
-MIDDLEWARE	../first_project/first_project/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
+MIDDLEWARE	../challenge/challenge/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
+MIDDLEWARE	../first_project/first_project/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
+MIDDLEWARE	../swdex/swdex/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
 MINEQUAL	../week2/lib/python3.6/token.py	/^MINEQUAL = 37$/;"	kind:variable	line:50
 MINUS	../week2/lib/python3.6/token.py	/^MINUS = 15$/;"	kind:variable	line:28
 MULTILINE	../week2/lib/python3.6/re.py	/^    MULTILINE = sre_compile.SRE_FLAG_MULTILINE # make anchors look for newline$/;"	kind:variable	line:147
@@ -690,7 +712,9 @@ RIGHTSHIFT	../week2/lib/python3.6/token.py	/^RIGHTSHIFT = 34$/;"	kind:variable	l
 RIGHTSHIFTEQUAL	../week2/lib/python3.6/token.py	/^RIGHTSHIFTEQUAL = 45$/;"	kind:variable	line:58
 RLock	../week2/lib/python3.6/functools.py	/^    class RLock:$/;"	kind:class	line:28
 RLock	../week2/lib/python3.6/functools.py	/^    from _thread import RLock$/;"	kind:namespace	line:26
-ROOT_URLCONF	../first_project/first_project/settings.py	/^ROOT_URLCONF = 'first_project.urls'$/;"	kind:variable	line:52
+ROOT_URLCONF	../challenge/challenge/settings.py	/^ROOT_URLCONF = 'challenge.urls'$/;"	kind:variable	line:52
+ROOT_URLCONF	../first_project/first_project/settings.py	/^ROOT_URLCONF = 'first_project.urls'$/;"	kind:variable	line:53
+ROOT_URLCONF	../swdex/swdex/settings.py	/^ROOT_URLCONF = 'swdex.urls'$/;"	kind:variable	line:52
 RPAR	../week2/lib/python3.6/token.py	/^RPAR = 8$/;"	kind:variable	line:21
 RSQB	../week2/lib/python3.6/token.py	/^RSQB = 10$/;"	kind:variable	line:23
 Random	../week2/lib/python3.6/random.py	/^class Random(_random.Random):$/;"	kind:class	line:71
@@ -704,6 +728,8 @@ ResourceLoader	../week2/lib/python3.6/importlib/abc.py	/^class ResourceLoader(Lo
 Reversible	../week2/lib/python3.6/_collections_abc.py	/^class Reversible(Iterable):$/;"	kind:class	line:293
 S	../week2/lib/python3.6/re.py	/^    S = DOTALL$/;"	kind:variable	line:155
 SEARCH_ERROR	../week2/lib/python3.6/imp.py	/^SEARCH_ERROR = 0$/;"	kind:variable	line:36
+SECRET_KEY	../challenge/challenge/settings.py	/^SECRET_KEY = '#390j^q*271$1z2)1iz!u)6@i6vw+y-8sf1nd4ztqx+(7#8d@+'$/;"	kind:variable	line:23
+SECRET_KEY	../swdex/swdex/settings.py	/^SECRET_KEY = '6a64x2w-udz6qj_ma)xoai2d%tnghwq(kd-zoyou8d%3u&l3()'$/;"	kind:variable	line:23
 SEEK_CUR	../week2/lib/python3.6/io.py	/^SEEK_CUR = 1$/;"	kind:variable	line:66
 SEEK_CUR	../week2/lib/python3.6/os.py	/^SEEK_CUR = 1$/;"	kind:variable	line:189
 SEEK_END	../week2/lib/python3.6/io.py	/^SEEK_END = 2$/;"	kind:variable	line:67
@@ -737,7 +763,9 @@ SRE_INFO_LITERAL	../week2/lib/python3.6/sre_constants.py	/^SRE_INFO_LITERAL = 2 
 SRE_INFO_PREFIX	../week2/lib/python3.6/sre_constants.py	/^SRE_INFO_PREFIX = 1 # has prefix$/;"	kind:variable	line:187
 STAR	../week2/lib/python3.6/token.py	/^STAR = 16$/;"	kind:variable	line:29
 STAREQUAL	../week2/lib/python3.6/token.py	/^STAREQUAL = 38$/;"	kind:variable	line:51
-STATIC_URL	../first_project/first_project/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
+STATIC_URL	../challenge/challenge/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
+STATIC_URL	../first_project/first_project/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
+STATIC_URL	../swdex/swdex/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
 STRING	../week2/lib/python3.6/token.py	/^STRING = 3$/;"	kind:variable	line:16
 ST_ATIME	../week2/lib/python3.6/stat.py	/^ST_ATIME = 7$/;"	kind:variable	line:15
 ST_CTIME	../week2/lib/python3.6/stat.py	/^ST_CTIME = 9$/;"	kind:variable	line:17
@@ -795,6 +823,7 @@ SimpleNamespace	../week2/lib/python3.6/types.py	/^SimpleNamespace = type(sys.imp
 Single	../week2/lib/python3.6/tokenize.py	/^Single = r"[^'\\\\]*(?:\\\\.[^'\\\\]*)*'"$/;"	kind:variable	line:160
 Single3	../week2/lib/python3.6/tokenize.py	/^Single3 = r"[^'\\\\]*(?:(?:\\\\.|'(?!''))[^'\\\\]*)*'''"$/;"	kind:variable	line:164
 Sized	../week2/lib/python3.6/_collections_abc.py	/^class Sized(metaclass=ABCMeta):$/;"	kind:class	line:359
+SomeViewsConfig	../challenge/some_views/apps.py	/^class SomeViewsConfig(AppConfig):$/;"	kind:class	line:4
 SourceFileLoader	../week2/lib/python3.6/importlib/_bootstrap_external.py	/^class SourceFileLoader(FileLoader, SourceLoader):$/;"	kind:class	line:836
 SourceFileLoader	../week2/lib/python3.6/importlib/machinery.py	/^from ._bootstrap_external import SourceFileLoader$/;"	kind:namespace	line:14
 SourceLoader	../week2/lib/python3.6/importlib/_bootstrap_external.py	/^class SourceLoader(_LoaderBasics):$/;"	kind:class	line:685
@@ -1066,10 +1095,14 @@ SystemRandom	../week2/lib/python3.6/random.py	/^class SystemRandom(Random):$/;"	
 T	../week2/lib/python3.6/encodings/punycode.py	/^def T(j, bias):$/;"	kind:function	line:70
 T	../week2/lib/python3.6/re.py	/^    T = TEMPLATE$/;"	kind:variable	line:159
 TEMPLATE	../week2/lib/python3.6/re.py	/^    TEMPLATE = sre_compile.SRE_FLAG_TEMPLATE # disable backtracking$/;"	kind:variable	line:158
-TEMPLATES	../first_project/first_project/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
+TEMPLATES	../challenge/challenge/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
+TEMPLATES	../first_project/first_project/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TEMPLATES	../swdex/swdex/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
 TILDE	../week2/lib/python3.6/token.py	/^TILDE = 31$/;"	kind:variable	line:44
 TIMEOUT_MAX	../week2/lib/python3.6/_dummy_thread.py	/^TIMEOUT_MAX = 2**31$/;"	kind:variable	line:20
-TIME_ZONE	../first_project/first_project/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
+TIME_ZONE	../challenge/challenge/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
+TIME_ZONE	../first_project/first_project/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:109
+TIME_ZONE	../swdex/swdex/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
 TMP_MAX	../week2/lib/python3.6/tempfile.py	/^    TMP_MAX = 10000$/;"	kind:variable	line:65
 TMP_MAX	../week2/lib/python3.6/tempfile.py	/^    TMP_MAX = _os.TMP_MAX$/;"	kind:variable	line:63
 TWOPI	../week2/lib/python3.6/random.py	/^TWOPI = 2.0*_pi$/;"	kind:variable	line:58
@@ -1079,6 +1112,8 @@ TarInfo	../week2/lib/python3.6/tarfile.py	/^class TarInfo(object):$/;"	kind:clas
 TemporaryDirectory	../week2/lib/python3.6/tempfile.py	/^class TemporaryDirectory(object):$/;"	kind:class	line:777
 TemporaryFile	../week2/lib/python3.6/tempfile.py	/^    TemporaryFile = NamedTemporaryFile$/;"	kind:variable	line:563
 TemporaryFile	../week2/lib/python3.6/tempfile.py	/^    def TemporaryFile(mode='w+b', buffering=-1, encoding=None,$/;"	kind:function	line:571
+TestCase	../challenge/some_views/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+TestCase	../first_project/first_app/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
 TextIOBase	../week2/lib/python3.6/io.py	/^class TextIOBase(_io._TextIOBase, IOBase):$/;"	kind:class	line:81
 TextIOWrapper	../week2/lib/python3.6/tokenize.py	/^from io import TextIOWrapper$/;"	kind:namespace	line:30
 To	../week2/lib/python3.6/importlib/_bootstrap_external.py	/^    import tokenize  # To avoid bootstrap issues.$/;"	kind:namespace	line:512
@@ -1102,9 +1137,15 @@ UF_OPAQUE	../week2/lib/python3.6/stat.py	/^UF_OPAQUE    = 0x00000008  # director
 UNICODE	../week2/lib/python3.6/re.py	/^    UNICODE = sre_compile.SRE_FLAG_UNICODE # assume unicode "locale"$/;"	kind:variable	line:146
 USER_BASE	../week2/lib/python3.6/site.py	/^USER_BASE = None$/;"	kind:variable	line:84
 USER_SITE	../week2/lib/python3.6/site.py	/^USER_SITE = None$/;"	kind:variable	line:83
-USE_I18N	../first_project/first_project/settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
-USE_L10N	../first_project/first_project/settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
-USE_TZ	../first_project/first_project/settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
+USE_I18N	../challenge/challenge/settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
+USE_I18N	../first_project/first_project/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
+USE_I18N	../swdex/swdex/settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
+USE_L10N	../challenge/challenge/settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
+USE_L10N	../first_project/first_project/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
+USE_L10N	../swdex/swdex/settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
+USE_TZ	../challenge/challenge/settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
+USE_TZ	../first_project/first_project/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
+USE_TZ	../swdex/swdex/settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
 USTAR_FORMAT	../week2/lib/python3.6/tarfile.py	/^USTAR_FORMAT = 0                # POSIX.1-1988 (ustar) format$/;"	kind:variable	line:107
 UnsupportedOperation	../week2/lib/python3.6/io.py	/^from _io import (DEFAULT_BUFFER_SIZE, BlockingIOError, UnsupportedOperation,$/;"	kind:namespace	line:54
 Untokenizer	../week2/lib/python3.6/tokenize.py	/^class Untokenizer:$/;"	kind:class	line:222
@@ -1120,7 +1161,9 @@ Verbose	../week2/lib/python3.6/sre_parse.py	/^class Verbose(Exception):$/;"	kind
 WHITESPACE	../week2/lib/python3.6/sre_parse.py	/^WHITESPACE = frozenset(" \\t\\n\\r\\v\\f")$/;"	kind:variable	line:26
 WRAPPER_ASSIGNMENTS	../week2/lib/python3.6/functools.py	/^WRAPPER_ASSIGNMENTS = ('__module__', '__name__', '__qualname__', '__doc__',$/;"	kind:variable	line:41
 WRAPPER_UPDATES	../week2/lib/python3.6/functools.py	/^WRAPPER_UPDATES = ('__dict__',)$/;"	kind:variable	line:43
-WSGI_APPLICATION	../first_project/first_project/settings.py	/^WSGI_APPLICATION = 'first_project.wsgi.application'$/;"	kind:variable	line:70
+WSGI_APPLICATION	../challenge/challenge/settings.py	/^WSGI_APPLICATION = 'challenge.wsgi.application'$/;"	kind:variable	line:70
+WSGI_APPLICATION	../first_project/first_project/settings.py	/^WSGI_APPLICATION = 'first_project.wsgi.application'$/;"	kind:variable	line:71
+WSGI_APPLICATION	../swdex/swdex/settings.py	/^WSGI_APPLICATION = 'swdex.wsgi.application'$/;"	kind:variable	line:70
 WarningMessage	../week2/lib/python3.6/warnings.py	/^class WarningMessage(object):$/;"	kind:class	line:393
 WeakKeyDictionary	../week2/lib/python3.6/functools.py	/^from weakref import WeakKeyDictionary$/;"	kind:namespace	line:23
 WeakKeyDictionary	../week2/lib/python3.6/weakref.py	/^class WeakKeyDictionary(collections.MutableMapping):$/;"	kind:class	line:343
@@ -1547,7 +1590,13 @@ __init__	../week2/lib/python3.6/weakref.py	/^    def __init__(*args, **kw):$/;"	
 __init__	../week2/lib/python3.6/weakref.py	/^    def __init__(self, dict=None):$/;"	kind:member	line:354
 __init__	../week2/lib/python3.6/weakref.py	/^    def __init__(self, ob, callback, key):$/;"	kind:member	line:339
 __init__	../week2/lib/python3.6/weakref.py	/^    def __init__(self, obj, func, *args, **kwargs):$/;"	kind:member	line:526
+__init__.py	../challenge/challenge/__init__.py	1;"	kind:file	line:1
+__init__.py	../challenge/some_views/__init__.py	1;"	kind:file	line:1
+__init__.py	../challenge/some_views/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../first_project/first_app/__init__.py	1;"	kind:file	line:1
+__init__.py	../first_project/first_app/migrations/__init__.py	1;"	kind:file	line:1
 __init__.py	../first_project/first_project/__init__.py	1;"	kind:file	line:1
+__init__.py	../swdex/swdex/__init__.py	1;"	kind:file	line:1
 __init__.py	../week2/lib/python3.6/collections/__init__.py	1;"	kind:file	line:1
 __init__.py	../week2/lib/python3.6/distutils/__init__.py	1;"	kind:file	line:1
 __init__.py	../week2/lib/python3.6/encodings/__init__.py	1;"	kind:file	line:1
@@ -2401,7 +2450,12 @@ addpackage	../week2/lib/python3.6/site.py	/^def addpackage(sitedir, name, known_
 addsitedir	../week2/lib/python3.6/site.py	/^def addsitedir(sitedir, known_paths=None):$/;"	kind:function	line:186
 addsitepackages	../week2/lib/python3.6/site.py	/^def addsitepackages(known_paths, sys_prefix=sys.prefix, exec_prefix=sys.exec_prefix):$/;"	kind:function	line:209
 addusersitepackages	../week2/lib/python3.6/site.py	/^def addusersitepackages(known_paths):$/;"	kind:function	line:309
+admin	../challenge/some_views/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../first_project/first_app/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
 admin	../first_project/first_project/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin	../swdex/swdex/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin.py	../challenge/some_views/admin.py	1;"	kind:file	line:1
+admin.py	../first_project/first_app/admin.py	1;"	kind:file	line:1
 after	../week2/lib/python3.6/weakref.py	/^import collections  # Import after _weakref to avoid circular import.$/;"	kind:namespace	line:24
 algorithms_available	../week2/lib/python3.6/hashlib.py	/^algorithms_available = set(__always_supported)$/;"	kind:variable	line:65
 algorithms_guaranteed	../week2/lib/python3.6/hashlib.py	/^algorithms_guaranteed = set(__always_supported)$/;"	kind:variable	line:64
@@ -2423,7 +2477,11 @@ append	../week2/lib/python3.6/_collections_abc.py	/^    def append(self, value):
 append	../week2/lib/python3.6/collections/__init__.py	/^    def append(self, item): self.data.append(item)$/;"	kind:member	line:1081
 append	../week2/lib/python3.6/importlib/_bootstrap_external.py	/^    def append(self, item):$/;"	kind:member	line:1008
 append	../week2/lib/python3.6/sre_parse.py	/^    def append(self, code):$/;"	kind:member	line:171
+application	../challenge/challenge/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
 application	../first_project/first_project/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+application	../swdex/swdex/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../challenge/some_views/apps.py	1;"	kind:file	line:1
+apps.py	../first_project/first_app/apps.py	1;"	kind:file	line:1
 argparse	../week2/lib/python3.6/tarfile.py	/^    import argparse$/;"	kind:namespace	line:2457
 argparse	../week2/lib/python3.6/tokenize.py	/^    import argparse$/;"	kind:namespace	line:733
 ascii.py	../week2/lib/python3.6/encodings/ascii.py	1;"	kind:file	line:1
@@ -3318,7 +3376,9 @@ dispatch_table	../week2/lib/python3.6/copyreg.py	/^dispatch_table = {}$/;"	kind:
 dist	../week2/lib/python3.6/distutils/__init__.py	/^from distutils import dist, sysconfig$/;"	kind:namespace	line:25
 distutils_path	../week2/lib/python3.6/distutils/__init__.py	/^distutils_path = os.path.join(os.path.dirname(opcode.__file__), 'distutils')$/;"	kind:variable	line:11
 division	../week2/lib/python3.6/__future__.py	/^division = _Feature((2, 2, 0, "alpha", 2),$/;"	kind:variable	line:114
+django	../challenge/manage.py	/^            import django$/;"	kind:namespace	line:14
 django	../first_project/manage.py	/^            import django$/;"	kind:namespace	line:14
+django	../swdex/manage.py	/^            import django$/;"	kind:namespace	line:14
 django-admin	../week2/bin/django-admin	1;"	kind:file	line:1
 django-admin.py	../week2/bin/django-admin.py	1;"	kind:file	line:1
 doctest	../week2/lib/python3.6/heapq.py	/^    import doctest$/;"	kind:namespace	line:606
@@ -3327,6 +3387,7 @@ dump	../week2/lib/python3.6/sre_constants.py	/^    def dump(f, d, prefix):$/;"	k
 dump	../week2/lib/python3.6/sre_parse.py	/^    def dump(self, level=0):$/;"	kind:member	line:117
 easy_install	../week2/bin/easy_install	1;"	kind:file	line:1
 easy_install-3.6	../week2/bin/easy_install-3.6	1;"	kind:file	line:1
+el	../first_project/first_project/urls.py	/^from django.conf.urls import url, include # Anade el modulo include$/;"	kind:namespace	line:16
 elements	../week2/lib/python3.6/collections/__init__.py	/^    def elements(self):$/;"	kind:member	line:557
 encode	../week2/lib/python3.6/base64.py	/^def encode(input, output):$/;"	kind:function	line:491
 encode	../week2/lib/python3.6/codecs.py	/^    def encode(self, input, errors='strict'):$/;"	kind:member	line:137
@@ -3658,6 +3719,7 @@ enum	../week2/lib/python3.6/re.py	/^import enum$/;"	kind:namespace	line:122
 enum.py	../week2/lib/python3.6/enum.py	1;"	kind:file	line:1
 environ	../week2/lib/python3.6/os.py	/^    environ = {}$/;"	kind:variable	line:520
 environ	../week2/lib/python3.6/os.py	/^environ = _createenviron()$/;"	kind:variable	line:754
+epylint	../week2/bin/epylint	1;"	kind:file	line:1
 eq	../week2/lib/python3.6/operator.py	/^def eq(a, b):$/;"	kind:function	line:35
 errno	../week2/lib/python3.6/os.py	/^import sys, errno$/;"	kind:namespace	line:26
 errno	../week2/lib/python3.6/shutil.py	/^import errno$/;"	kind:namespace	line:12
@@ -3688,7 +3750,9 @@ execlp	../week2/lib/python3.6/os.py	/^def execlp(file, *args):$/;"	kind:function
 execlpe	../week2/lib/python3.6/os.py	/^def execlpe(file, *args):$/;"	kind:function	line:544
 execsitecustomize	../week2/lib/python3.6/site.py	/^def execsitecustomize():$/;"	kind:function	line:545
 execusercustomize	../week2/lib/python3.6/site.py	/^def execusercustomize():$/;"	kind:function	line:660
+execute_from_command_line	../challenge/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
 execute_from_command_line	../first_project/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+execute_from_command_line	../swdex/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
 execute_from_command_line	../week2/bin/django-admin	/^from django.core.management import execute_from_command_line$/;"	kind:namespace	line:7
 execvp	../week2/lib/python3.6/os.py	/^def execvp(file, args):$/;"	kind:function	line:553
 execvpe	../week2/lib/python3.6/os.py	/^def execvpe(file, args, env):$/;"	kind:function	line:561
@@ -3859,7 +3923,9 @@ get_suffixes	../week2/lib/python3.6/imp.py	/^def get_suffixes():$/;"	kind:functi
 get_tag	../week2/lib/python3.6/imp.py	/^def get_tag():$/;"	kind:function	line:67
 get_terminal_size	../week2/lib/python3.6/shutil.py	/^def get_terminal_size(fallback=(80, 24)):$/;"	kind:function	line:1048
 get_unpack_formats	../week2/lib/python3.6/shutil.py	/^def get_unpack_formats():$/;"	kind:function	line:810
+get_wsgi_application	../challenge/challenge/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
 get_wsgi_application	../first_project/first_project/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+get_wsgi_application	../swdex/swdex/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
 getatime	../week2/lib/python3.6/genericpath.py	/^def getatime(filename):$/;"	kind:function	line:58
 getcomptype	../week2/lib/python3.6/tarfile.py	/^    def getcomptype(self):$/;"	kind:member	line:592
 getctime	../week2/lib/python3.6/genericpath.py	/^def getctime(filename):$/;"	kind:function	line:63
@@ -4094,6 +4160,12 @@ import_module	../week2/lib/python3.6/importlib/__init__.py	/^def import_module(n
 importlib	../week2/lib/python3.6/imp.py	/^        import importlib.machinery$/;"	kind:namespace	line:335
 importlib	../week2/lib/python3.6/imp.py	/^import importlib$/;"	kind:namespace	line:24
 imul	../week2/lib/python3.6/operator.py	/^def imul(a, b):$/;"	kind:function	line:370
+include	../challenge/challenge/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:16
+include	../challenge/some_views/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:1
+include	../first_project/first_project/urls.py	/^from django.conf.urls import url, include # Anade el modulo include$/;"	kind:namespace	line:16
+index	../first_project/first_app/urls.py	/^from .views import index, saludo$/;"	kind:namespace	line:6
+index	../first_project/first_app/views.py	/^def index(request):$/;"	kind:function	line:5
+index	../first_project/first_project/urls.py	/^from first_app.views import index$/;"	kind:namespace	line:18
 index	../week2/lib/python3.6/_collections_abc.py	/^    def index(self, value, start=0, stop=None):$/;"	kind:member	line:899
 index	../week2/lib/python3.6/collections/__init__.py	/^    def index(self, item, *args): return self.data.index(item, *args)$/;"	kind:member	line:1088
 index	../week2/lib/python3.6/collections/__init__.py	/^    def index(self, sub, start=0, end=_sys.maxsize):$/;"	kind:member	line:1194
@@ -4187,6 +4259,7 @@ iso8859_6.py	../week2/lib/python3.6/encodings/iso8859_6.py	1;"	kind:file	line:1
 iso8859_7.py	../week2/lib/python3.6/encodings/iso8859_7.py	1;"	kind:file	line:1
 iso8859_8.py	../week2/lib/python3.6/encodings/iso8859_8.py	1;"	kind:file	line:1
 iso8859_9.py	../week2/lib/python3.6/encodings/iso8859_9.py	1;"	kind:file	line:1
+isort	../week2/bin/isort	1;"	kind:file	line:1
 isprintable	../week2/lib/python3.6/collections/__init__.py	/^    def isprintable(self): return self.data.isprintable()$/;"	kind:member	line:1203
 isreg	../week2/lib/python3.6/tarfile.py	/^    def isreg(self):$/;"	kind:member	line:1360
 issc	../week2/lib/python3.6/copy.py	/^            issc = 0$/;"	kind:variable	line:155
@@ -4305,6 +4378,7 @@ machinery	../week2/lib/python3.6/importlib/abc.py	/^from . import machinery$/;"	
 machinery.py	../week2/lib/python3.6/importlib/machinery.py	1;"	kind:file	line:1
 main	../week2/bin/easy_install	/^from setuptools.command.easy_install import main$/;"	kind:namespace	line:7
 main	../week2/bin/easy_install-3.6	/^from setuptools.command.easy_install import main$/;"	kind:namespace	line:7
+main	../week2/bin/isort	/^from isort.main import main$/;"	kind:namespace	line:7
 main	../week2/bin/pip	/^from pip import main$/;"	kind:namespace	line:7
 main	../week2/bin/pip3	/^from pip import main$/;"	kind:namespace	line:7
 main	../week2/bin/pip3.6	/^from pip import main$/;"	kind:namespace	line:7
@@ -4326,7 +4400,9 @@ makelink	../week2/lib/python3.6/tarfile.py	/^    def makelink(self, tarinfo, tar
 makepath	../week2/lib/python3.6/site.py	/^def makepath(*paths):$/;"	kind:function	line:92
 maketrans	../week2/lib/python3.6/collections/__init__.py	/^    maketrans = str.maketrans$/;"	kind:variable	line:1212
 makeunknown	../week2/lib/python3.6/tarfile.py	/^    def makeunknown(self, tarinfo, targetpath):$/;"	kind:member	line:2170
+manage.py	../challenge/manage.py	1;"	kind:file	line:1
 manage.py	../first_project/manage.py	1;"	kind:file	line:1
+manage.py	../swdex/manage.py	1;"	kind:file	line:1
 management	../week2/bin/django-admin.py	/^from django.core import management$/;"	kind:namespace	line:2
 mappingproxy	../week2/lib/python3.6/_collections_abc.py	/^mappingproxy = type(type.__dict__)$/;"	kind:variable	line:55
 match	../week2/lib/python3.6/re.py	/^def match(pattern, string, flags=0):$/;"	kind:function	line:169
@@ -4368,6 +4444,10 @@ mkstemp	../week2/lib/python3.6/tempfile.py	/^def mkstemp(suffix=None, prefix=Non
 mktemp	../week2/lib/python3.6/tempfile.py	/^def mktemp(suffix="", prefix=template, dir=None):$/;"	kind:function	line:384
 mod	../week2/lib/python3.6/operator.py	/^def mod(a, b):$/;"	kind:function	line:100
 mode	../week2/lib/python3.6/tempfile.py	/^    def mode(self):$/;"	kind:member	line:715
+models	../challenge/some_views/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models	../first_project/first_app/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../challenge/some_views/models.py	1;"	kind:file	line:1
+models.py	../first_project/first_app/models.py	1;"	kind:file	line:1
 module	../week2/lib/python3.6/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
 module	../week2/lib/python3.6/encodings/bz2_codec.py	/^import bz2 # this codec needs the optional bz2 module !$/;"	kind:namespace	line:11
 module	../week2/lib/python3.6/encodings/zlib_codec.py	/^import zlib # this codec needs the optional zlib module !$/;"	kind:namespace	line:9
@@ -4380,10 +4460,15 @@ module_repr	../week2/lib/python3.6/importlib/_bootstrap.py	/^    def module_repr
 module_repr	../week2/lib/python3.6/importlib/_bootstrap.py	/^    def module_repr(module):$/;"	kind:member	line:690
 module_repr	../week2/lib/python3.6/importlib/_bootstrap_external.py	/^    def module_repr(cls, module):$/;"	kind:member	line:1018
 module_repr	../week2/lib/python3.6/importlib/abc.py	/^    def module_repr(self, module):$/;"	kind:member	line:157
+modulo	../first_project/first_project/urls.py	/^from django.conf.urls import url, include # Anade el modulo include$/;"	kind:namespace	line:16
 most_common	../week2/lib/python3.6/collections/__init__.py	/^    def most_common(self, n=None):$/;"	kind:member	line:544
 move	../week2/lib/python3.6/shutil.py	/^def move(src, dst, copy_function=copy2):$/;"	kind:function	line:506
 move_to_end	../week2/lib/python3.6/collections/__init__.py	/^    def move_to_end(self, key, last=True):$/;"	kind:member	line:182
 mul	../week2/lib/python3.6/operator.py	/^def mul(a, b):$/;"	kind:function	line:104
+mult	../challenge/some_views/urls.py	/^from .views import sum, mult$/;"	kind:namespace	line:2
+mult	../challenge/some_views/views.py	/^def mult(request):$/;"	kind:function	line:9
+name	../challenge/some_views/apps.py	/^    name = 'some_views'$/;"	kind:variable	line:5
+name	../first_project/first_app/apps.py	/^    name = 'first_app'$/;"	kind:variable	line:5
 name	../week2/lib/python3.6/enum.py	/^    def name(self):$/;"	kind:member	line:593
 name	../week2/lib/python3.6/hmac.py	/^    def name(self):$/;"	kind:member	line:87
 name	../week2/lib/python3.6/os.py	/^    name = 'nt'$/;"	kind:variable	line:69
@@ -4456,9 +4541,15 @@ opt_flags	../week2/lib/python3.6/config-3.6m-x86_64-linux-gnu/python-config.py	/
 optional	../week2/lib/python3.6/encodings/bz2_codec.py	/^import bz2 # this codec needs the optional bz2 module !$/;"	kind:namespace	line:11
 optional	../week2/lib/python3.6/encodings/zlib_codec.py	/^import zlib # this codec needs the optional zlib module !$/;"	kind:namespace	line:9
 or_	../week2/lib/python3.6/operator.py	/^def or_(a, b):$/;"	kind:function	line:116
+os	../challenge/challenge/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../challenge/challenge/wsgi.py	/^import os$/;"	kind:namespace	line:10
+os	../challenge/manage.py	/^import os$/;"	kind:namespace	line:2
 os	../first_project/first_project/settings.py	/^import os$/;"	kind:namespace	line:13
 os	../first_project/first_project/wsgi.py	/^import os$/;"	kind:namespace	line:10
 os	../first_project/manage.py	/^import os$/;"	kind:namespace	line:2
+os	../swdex/manage.py	/^import os$/;"	kind:namespace	line:2
+os	../swdex/swdex/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../swdex/swdex/wsgi.py	/^import os$/;"	kind:namespace	line:10
 os	../week2/bin/activate_this.py	/^import os$/;"	kind:namespace	line:14
 os	../week2/lib/python3.6/config-3.6m-x86_64-linux-gnu/python-config.py	/^import os$/;"	kind:namespace	line:7
 os	../week2/lib/python3.6/distutils/__init__.py	/^import os$/;"	kind:namespace	line:1
@@ -4547,6 +4638,8 @@ pwd	../week2/lib/python3.6/posixpath.py	/^        import pwd$/;"	kind:namespace	
 pwd	../week2/lib/python3.6/tarfile.py	/^    import pwd$/;"	kind:namespace	line:53
 pwd	../week2/lib/python3.6/tarfile.py	/^    pwd = None$/;"	kind:variable	line:55
 pydoc	../week2/lib/python3.6/site.py	/^        import pydoc$/;"	kind:namespace	line:504
+pylint	../week2/bin/pylint	1;"	kind:file	line:1
+pyreverse	../week2/bin/pyreverse	1;"	kind:file	line:1
 python-config	../week2/bin/python-config	1;"	kind:file	line:1
 python-config.py	../week2/lib/python3.6/config-3.6m-x86_64-linux-gnu/python-config.py	1;"	kind:file	line:1
 pyver	../week2/bin/python-config	/^pyver = sysconfig.get_config_var('VERSION')$/;"	kind:variable	line:30
@@ -4568,9 +4661,14 @@ raw_unicode_escape.py	../week2/lib/python3.6/encodings/raw_unicode_escape.py	1;"
 re	../week2/bin/django-admin	/^import re$/;"	kind:namespace	line:4
 re	../week2/bin/easy_install	/^import re$/;"	kind:namespace	line:4
 re	../week2/bin/easy_install-3.6	/^import re$/;"	kind:namespace	line:4
+re	../week2/bin/epylint	/^import re$/;"	kind:namespace	line:4
+re	../week2/bin/isort	/^import re$/;"	kind:namespace	line:4
 re	../week2/bin/pip	/^import re$/;"	kind:namespace	line:4
 re	../week2/bin/pip3	/^import re$/;"	kind:namespace	line:4
 re	../week2/bin/pip3.6	/^import re$/;"	kind:namespace	line:4
+re	../week2/bin/pylint	/^import re$/;"	kind:namespace	line:4
+re	../week2/bin/pyreverse	/^import re$/;"	kind:namespace	line:4
+re	../week2/bin/symilar	/^import re$/;"	kind:namespace	line:4
 re	../week2/bin/wheel	/^import re$/;"	kind:namespace	line:4
 re	../week2/lib/python3.6/base64.py	/^import re$/;"	kind:namespace	line:9
 re	../week2/lib/python3.6/encodings/idna.py	/^import stringprep, re, codecs$/;"	kind:namespace	line:3
@@ -4640,6 +4738,8 @@ remove_extension	../week2/lib/python3.6/copyreg.py	/^def remove_extension(module
 removedirs	../week2/lib/python3.6/os.py	/^def removedirs(name):$/;"	kind:function	line:227
 removeduppaths	../week2/lib/python3.6/site.py	/^def removeduppaths():$/;"	kind:function	line:113
 renames	../week2/lib/python3.6/os.py	/^def renames(old, new):$/;"	kind:function	line:249
+render	../challenge/some_views/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+render	../first_project/first_app/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
 repeat	../week2/lib/python3.6/tokenize.py	/^    from itertools import chain, repeat$/;"	kind:namespace	line:485
 replace	../week2/lib/python3.6/collections/__init__.py	/^    def replace(self, old, new, maxsplit=-1):$/;"	kind:member	line:1215
 replace_errors	../week2/lib/python3.6/codecs.py	/^    replace_errors = None$/;"	kind:variable	line:1092
@@ -4701,10 +4801,16 @@ rpartition	../week2/lib/python3.6/collections/__init__.py	/^    def rpartition(s
 rshift	../week2/lib/python3.6/operator.py	/^def rshift(a, b):$/;"	kind:function	line:128
 rsplit	../week2/lib/python3.6/collections/__init__.py	/^    def rsplit(self, sep=None, maxsplit=-1):$/;"	kind:member	line:1235
 rstrip	../week2/lib/python3.6/collections/__init__.py	/^    def rstrip(self, chars=None):$/;"	kind:member	line:1231
+run_epylint	../week2/bin/epylint	/^from pylint import run_epylint$/;"	kind:namespace	line:7
+run_pylint	../week2/bin/pylint	/^from pylint import run_pylint$/;"	kind:namespace	line:7
+run_pyreverse	../week2/bin/pyreverse	/^from pylint import run_pyreverse$/;"	kind:namespace	line:7
+run_symilar	../week2/bin/symilar	/^from pylint import run_symilar$/;"	kind:namespace	line:7
 rv	../week2/lib/python3.6/copy.py	/^                            rv = reductor()$/;"	kind:variable	line:173
 rv	../week2/lib/python3.6/copy.py	/^                        rv = reductor(4)$/;"	kind:variable	line:169
 rv	../week2/lib/python3.6/copy.py	/^                    rv = reductor(x)$/;"	kind:variable	line:165
 sace_prefix	../week2/lib/python3.6/encodings/idna.py	/^sace_prefix = "xn--"$/;"	kind:variable	line:11
+saludo	../first_project/first_app/urls.py	/^from .views import index, saludo$/;"	kind:namespace	line:6
+saludo	../first_project/first_app/views.py	/^def saludo(request, saludo):$/;"	kind:function	line:8
 samefile	../week2/lib/python3.6/genericpath.py	/^def samefile(f1, f2):$/;"	kind:function	line:94
 sameopenfile	../week2/lib/python3.6/genericpath.py	/^def sameopenfile(fp1, fp2):$/;"	kind:function	line:103
 samestat	../week2/lib/python3.6/genericpath.py	/^def samestat(s1, s2):$/;"	kind:function	line:87
@@ -4769,7 +4875,9 @@ setstate	../week2/lib/python3.6/encodings/utf_8_sig.py	/^    def setstate(self, 
 setstate	../week2/lib/python3.6/random.py	/^    def setstate(self, state):$/;"	kind:member	line:131
 setstate	../week2/lib/python3.6/random.py	/^setstate = _inst.setstate$/;"	kind:variable	line:763
 setter	../week2/lib/python3.6/types.py	/^    def setter(self, fset):$/;"	kind:member	line:160
+settings.py	../challenge/challenge/settings.py	1;"	kind:file	line:1
 settings.py	../first_project/first_project/settings.py	1;"	kind:file	line:1
+settings.py	../swdex/swdex/settings.py	1;"	kind:file	line:1
 shift_jis.py	../week2/lib/python3.6/encodings/shift_jis.py	1;"	kind:file	line:1
 shift_jis_2004.py	../week2/lib/python3.6/encodings/shift_jis_2004.py	1;"	kind:file	line:1
 shift_jisx0213.py	../week2/lib/python3.6/encodings/shift_jisx0213.py	1;"	kind:file	line:1
@@ -4855,6 +4963,8 @@ sub	../week2/lib/python3.6/re.py	/^def sub(pattern, repl, string, count=0, flags
 subn	../week2/lib/python3.6/re.py	/^def subn(pattern, repl, string, count=0, flags=0):$/;"	kind:function	line:193
 subprocess	../week2/lib/python3.6/os.py	/^    import subprocess, io$/;"	kind:namespace	line:973
 subtract	../week2/lib/python3.6/collections/__init__.py	/^    def subtract(*args, **kwds):$/;"	kind:member	line:628
+sum	../challenge/some_views/urls.py	/^from .views import sum, mult$/;"	kind:namespace	line:2
+sum	../challenge/some_views/views.py	/^def sum(request, num1):$/;"	kind:function	line:5
 supports_bytes_environ	../week2/lib/python3.6/os.py	/^supports_bytes_environ = (name != 'nt')$/;"	kind:variable	line:764
 supports_dir_fd	../week2/lib/python3.6/os.py	/^    supports_dir_fd = _set$/;"	kind:variable	line:121
 supports_effective_ids	../week2/lib/python3.6/os.py	/^    supports_effective_ids = _set$/;"	kind:variable	line:125
@@ -4863,18 +4973,26 @@ supports_follow_symlinks	../week2/lib/python3.6/os.py	/^    supports_follow_syml
 supports_unicode_filenames	../week2/lib/python3.6/ntpath.py	/^supports_unicode_filenames = (hasattr(sys, "getwindowsversion") and$/;"	kind:variable	line:556
 supports_unicode_filenames	../week2/lib/python3.6/posixpath.py	/^supports_unicode_filenames = (sys.platform == 'darwin')$/;"	kind:variable	line:442
 swapcase	../week2/lib/python3.6/collections/__init__.py	/^    def swapcase(self): return self.__class__(self.data.swapcase())$/;"	kind:member	line:1241
+symilar	../week2/bin/symilar	1;"	kind:file	line:1
 symlink_exception	../week2/lib/python3.6/tarfile.py	/^symlink_exception = (AttributeError, NotImplementedError)$/;"	kind:variable	line:62
 symmetric_difference	../week2/lib/python3.6/_weakrefset.py	/^    def symmetric_difference(self, other):$/;"	kind:member	line:174
 symmetric_difference_update	../week2/lib/python3.6/_weakrefset.py	/^    def symmetric_difference_update(self, other):$/;"	kind:member	line:180
+sys	../challenge/manage.py	/^import sys$/;"	kind:namespace	line:3
 sys	../first_project/manage.py	/^import sys$/;"	kind:namespace	line:3
+sys	../swdex/manage.py	/^import sys$/;"	kind:namespace	line:3
 sys	../week2/bin/activate_this.py	/^import sys$/;"	kind:namespace	line:13
 sys	../week2/bin/django-admin	/^import sys$/;"	kind:namespace	line:5
 sys	../week2/bin/easy_install	/^import sys$/;"	kind:namespace	line:5
 sys	../week2/bin/easy_install-3.6	/^import sys$/;"	kind:namespace	line:5
+sys	../week2/bin/epylint	/^import sys$/;"	kind:namespace	line:5
+sys	../week2/bin/isort	/^import sys$/;"	kind:namespace	line:5
 sys	../week2/bin/pip	/^import sys$/;"	kind:namespace	line:5
 sys	../week2/bin/pip3	/^import sys$/;"	kind:namespace	line:5
 sys	../week2/bin/pip3.6	/^import sys$/;"	kind:namespace	line:5
+sys	../week2/bin/pylint	/^import sys$/;"	kind:namespace	line:5
+sys	../week2/bin/pyreverse	/^import sys$/;"	kind:namespace	line:5
 sys	../week2/bin/python-config	/^import sys$/;"	kind:namespace	line:3
+sys	../week2/bin/symilar	/^import sys$/;"	kind:namespace	line:5
 sys	../week2/bin/wheel	/^import sys$/;"	kind:namespace	line:5
 sys	../week2/lib/python3.6/_bootlocale.py	/^import sys$/;"	kind:namespace	line:7
 sys	../week2/lib/python3.6/_collections_abc.py	/^import sys$/;"	kind:namespace	line:10
@@ -4934,6 +5052,8 @@ tempfile.py	../week2/lib/python3.6/tempfile.py	1;"	kind:file	line:1
 template	../week2/lib/python3.6/re.py	/^def template(pattern, flags=0):$/;"	kind:function	line:240
 template	../week2/lib/python3.6/tempfile.py	/^template = "tmp"$/;"	kind:variable	line:71
 test	../week2/lib/python3.6/base64.py	/^def test():$/;"	kind:function	line:591
+tests.py	../challenge/some_views/tests.py	1;"	kind:file	line:1
+tests.py	../first_project/first_app/tests.py	1;"	kind:file	line:1
 textwrap	../week2/lib/python3.6/site.py	/^        import textwrap$/;"	kind:namespace	line:753
 the	../week2/lib/python3.6/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
 the	../week2/lib/python3.6/encodings/bz2_codec.py	/^import bz2 # this codec needs the optional bz2 module !$/;"	kind:namespace	line:11
@@ -5006,9 +5126,21 @@ update	../week2/lib/python3.6/weakref.py	/^    def update(self, dict=None, **kwa
 update_wrapper	../week2/lib/python3.6/functools.py	/^def update_wrapper(wrapper,$/;"	kind:function	line:44
 updatecache	../week2/lib/python3.6/linecache.py	/^def updatecache(filename, module_globals=None):$/;"	kind:function	line:82
 upper	../week2/lib/python3.6/collections/__init__.py	/^    def upper(self): return self.__class__(self.data.upper())$/;"	kind:member	line:1245
-url	../first_project/first_project/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
-urlpatterns	../first_project/first_project/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+url	../challenge/challenge/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:16
+url	../challenge/some_views/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:1
+url	../first_project/first_app/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:5
+url	../first_project/first_project/urls.py	/^from django.conf.urls import url, include # Anade el modulo include$/;"	kind:namespace	line:16
+url	../swdex/swdex/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
+urlpatterns	../challenge/challenge/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	../challenge/some_views/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urlpatterns	../first_project/first_app/urls.py	/^urlpatterns = [$/;"	kind:variable	line:8
+urlpatterns	../first_project/first_project/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
+urlpatterns	../swdex/swdex/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	../challenge/challenge/urls.py	1;"	kind:file	line:1
+urls.py	../challenge/some_views/urls.py	1;"	kind:file	line:1
+urls.py	../first_project/first_app/urls.py	1;"	kind:file	line:1
 urls.py	../first_project/first_project/urls.py	1;"	kind:file	line:1
+urls.py	../swdex/swdex/urls.py	1;"	kind:file	line:1
 urlsafe_b64decode	../week2/lib/python3.6/base64.py	/^def urlsafe_b64decode(s):$/;"	kind:function	line:120
 urlsafe_b64encode	../week2/lib/python3.6/base64.py	/^def urlsafe_b64encode(s):$/;"	kind:function	line:111
 use	../week2/lib/python3.6/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
@@ -5037,6 +5169,8 @@ values	../week2/lib/python3.6/collections/__init__.py	/^    def values(self):$/;
 values	../week2/lib/python3.6/weakref.py	/^    def values(self):$/;"	kind:member	line:242
 values	../week2/lib/python3.6/weakref.py	/^    def values(self):$/;"	kind:member	line:454
 version	../week2/lib/python3.6/tarfile.py	/^version     = "0.9.0"$/;"	kind:variable	line:32
+views.py	../challenge/some_views/views.py	1;"	kind:file	line:1
+views.py	../first_project/first_app/views.py	1;"	kind:file	line:1
 virtual_addsitepackages	../week2/lib/python3.6/site.py	/^def virtual_addsitepackages(known_paths):$/;"	kind:function	line:642
 virtual_install_main_packages	../week2/lib/python3.6/site.py	/^def virtual_install_main_packages():$/;"	kind:function	line:552
 virtualenv	../week2/lib/python3.6/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
@@ -5087,7 +5221,9 @@ writelines	../week2/lib/python3.6/codecs.py	/^    def writelines(self, list):$/;
 writelines	../week2/lib/python3.6/codecs.py	/^    def writelines(self, list):$/;"	kind:member	line:720
 writelines	../week2/lib/python3.6/codecs.py	/^    def writelines(self, list):$/;"	kind:member	line:836
 writelines	../week2/lib/python3.6/tempfile.py	/^    def writelines(self, iterable):$/;"	kind:member	line:770
+wsgi.py	../challenge/challenge/wsgi.py	1;"	kind:file	line:1
 wsgi.py	../first_project/first_project/wsgi.py	1;"	kind:file	line:1
+wsgi.py	../swdex/swdex/wsgi.py	1;"	kind:file	line:1
 xmlcharrefreplace_errors	../week2/lib/python3.6/codecs.py	/^    xmlcharrefreplace_errors = None$/;"	kind:variable	line:1093
 xmlcharrefreplace_errors	../week2/lib/python3.6/codecs.py	/^    xmlcharrefreplace_errors = lookup_error("xmlcharrefreplace")$/;"	kind:variable	line:1085
 xor	../week2/lib/python3.6/operator.py	/^def xor(a, b):$/;"	kind:function	line:140
